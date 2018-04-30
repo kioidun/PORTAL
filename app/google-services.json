@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883882631363",
+    "firebase_url": "https://jkuat-portal.firebaseio.com",
+    "project_id": "jkuat-portal",
+    "storage_bucket": "jkuat-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883882631363:android:eabfc64a8ac6176b",
+        "android_client_info": {
+          "package_name": "com.example.kioi.jkuatportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883882631363-ajbnv2uapf3qo322los8bmpimakonfkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kioi.jkuatportal",
+            "certificate_hash": "a9f3c02d865f092f9af998e9b3597e6eb0e01b45"
+          }
+        },
+        {
+          "client_id": "883882631363-8umjqdf712g5e8idkbtah83160ud2h5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDsIWfvS1ONs9ezUKCo3Lu8iTOOyuJ3Yk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883882631363-8umjqdf712g5e8idkbtah83160ud2h5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

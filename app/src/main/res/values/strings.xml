@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JKUATPORTAL</string>
+    <string name="password">password</string>
+    <string name="email">Email</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="student_name">student Name</string>
+    <string name="student_reg_number">student reg Number</string>
+    <string name="course">course</string>
+    <string name="confirm_password">confirm Password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>
