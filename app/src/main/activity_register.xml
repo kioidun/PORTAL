@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/bottompad"
+    android:paddingLeft="@dimen/leftpad"
+    android:paddingRight="@dimen/rightpad"
+    android:paddingTop="@dimen/Toppad"
+    tools:context="com.example.kioi.jkuatportal.RegisterActivity">
+
+     <EditText
+          android:id="@+id/studentName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="@dimen/marginside"
+          android:hint="@string/student_name"
+          android:inputType="text"></EditText>
+
+      <EditText
+          android:id="@+id/studentReg"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="20dp"
+          android:hint="@string/student_reg_number"
+          android:inputType="text"></EditText>
+
+      <EditText
+          android:id="@+id/course"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="20dp"
+          android:hint="@string/course"
+          android:inputType="text" ></EditText>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/confirm_password"
+        android:imeActionId="@+id/register_form_finished"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register_sign_up_button"
+        style="?android:textAppearanceMedium"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:onClick="signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Register"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
