@@ -40,7 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
       //  mStudentRegNo=(EditText)findViewById(R.id.studentReg);
       //  mCourse=(EditText)findViewById(R.id.course);
         mEmail=(EditText)findViewById(R.id.mail);
-        mPassword=(EditText)findViewById(R.id.password);
+        mPassword=(EditText)findViewById(R.id.passwordregister);
         mConfirmPassword=(EditText)findViewById(R.id.confirmpassword);
 
 
